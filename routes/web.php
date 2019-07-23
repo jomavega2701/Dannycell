@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('admin/sistema/usuario', 'usuarioController@index')->name('usuario');
+
